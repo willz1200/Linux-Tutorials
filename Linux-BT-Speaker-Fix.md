@@ -6,7 +6,7 @@ Use these steps to fix the following problems.
 - Computer unable to connect to speaker.
 - Speaker appears as a mono device resulting in poor audio quality.
 
-Tested with an Anker SoundCore. Model: A3102.
+Tested on Linux Mint with an Anker SoundCore, Model: A3102.
 
 1. In the file `/etc/pulse/default.pa` comment out the following line so it now reads:
 
