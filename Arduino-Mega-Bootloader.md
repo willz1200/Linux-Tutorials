@@ -7,9 +7,9 @@ How to change the ATmega2560 bootloader frequency and upload speed (stk500v2)
 
 - Download the precompiled binary with your required parameters using the following table:
 
-|                      | Frequency = 8MHz                                          | Frequency = 16MHz                                          |
-|----------------------|-----------------------------------------------------------|------------------------------------------------------------|
-| Upload Speed = 9600  | [Binary](stk500v2/stk500boot_v2_mega2560-8MHz-9600.hex)   | [Binary](stk500v2/stk500boot_v2_mega2560-16MHz-9600.hex)   |
+|                       | Frequency = 8MHz                                          | Frequency = 16MHz                                          |
+|-----------------------|-----------------------------------------------------------|------------------------------------------------------------|
+| Upload Speed = 9600   | [Binary](stk500v2/stk500boot_v2_mega2560-8MHz-9600.hex)   | [Binary](stk500v2/stk500boot_v2_mega2560-16MHz-9600.hex)   |
 | Upload Speed = 115200 | [Binary](stk500v2/stk500boot_v2_mega2560-8MHz-115200.hex) | [Binary](stk500v2/stk500boot_v2_mega2560-16MHz-115200.hex) |
 
 ## How to Install the new bootloader
