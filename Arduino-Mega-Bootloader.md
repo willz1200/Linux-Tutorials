@@ -45,7 +45,7 @@ If you didn't rename the bootloader to its original name then change the followi
 3. To change the operating frequency and upload baud rate, open the makefile and edit the following lines (You may need to add the `mega2560: BAUDRATE =` line):
 
 ```
-mega2560:	F_CPU = 16000000
+mega2560: F_CPU = 16000000
 mega2560: BAUDRATE = 115200
 ```
 
