@@ -24,3 +24,10 @@ load-module module-switch-on-connect
 ```
 
 You may need to open the sound preferences go to the hardware tab and change the profile to (A2DP Sink). You'll also need to go on the output tab and change your output device to the speaker.
+
+If the speaker pairs but won't connect try the following commands:
+
+```
+sudo apt-get install pulseaudio-module-bluetooth
+pactl load-module module-bluetooth-discover
+```
